@@ -1,4 +1,5 @@
 
+
 import express from 'express'
 import {
     registerController,
@@ -14,5 +15,4 @@ authRouter.post('/verifyToken', verifyController)
 
 console.log("Temur Paraxatov");
 console.log("hahahah");
-
 
