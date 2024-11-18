@@ -1,5 +1,3 @@
-
-
 import express from 'express'
 import {
     registerController,
@@ -13,6 +11,4 @@ authRouter.post('/register', registerController)
 authRouter.post('/login', loginController)
 authRouter.post('/verifyToken', verifyController)
 
-console.log("Temur Paraxatov");
-console.log("hahahah");
 
