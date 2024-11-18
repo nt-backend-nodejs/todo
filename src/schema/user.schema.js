@@ -16,4 +16,4 @@ export const createUserTable = async () => {
     } catch (error) {
         logger.error(error)
     }
-}
+};
