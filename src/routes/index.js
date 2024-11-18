@@ -12,3 +12,5 @@ authRouter.post('/login', loginController)
 authRouter.post('/verifyToken', verifyController)
 
 console.log('qizuuu bovottikuuu')
+
+console.log('ok')
