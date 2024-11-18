@@ -1,1 +1,1 @@
-f
+console.log('salom men muhammadazizman');
