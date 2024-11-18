@@ -1,2 +1,1 @@
-
-console.log("I'm Abdulaziz")
+ console.log("Salom");
