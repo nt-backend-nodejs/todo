@@ -1,5 +1,5 @@
 import pool from '../databases/index.js'
-
+// User table
 export const createUserTable = async () => {
     try {
         await pool.query(
