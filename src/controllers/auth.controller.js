@@ -6,4 +6,3 @@ export const authController ={
         }
         const data = register(req.body)
     }
-}
