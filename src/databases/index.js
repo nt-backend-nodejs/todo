@@ -1,1 +1,1 @@
-console.log(database buuu);
+console.log("temur add");
