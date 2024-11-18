@@ -11,14 +11,7 @@ export const createUserTable = async () => {
                 name VARCHAR,
                 email VARCHAR UNIQUE NOT NULL,
                 password VARCHAR NOT NULL,
-                role USER_ROLE DEFAULT 'user',
-                avatar VARCHAR,
-                username VARCHAR UNIQUE NOT NULL,
-                birth_of_date DATE,
-                phone_number VARCHAR UNIQUE NOT NULL,
-                is_active BOOLEAN DEFAULT false,
-                created_at TIMESTAMPTZ,
-                updated_at TIMESTAMPTZ
+                
             )`)
     } catch (error) {
         logger.error(error)
