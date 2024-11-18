@@ -5,5 +5,5 @@ export const authController ={
             return res.status(400).send("Sorry!! malumotlarni toldiring...")
         }
         const data = register(req.body)
-    }
+        }
 }
