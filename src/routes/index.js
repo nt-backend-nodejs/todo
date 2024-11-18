@@ -1,7 +1,13 @@
-const res = 45
 
-if (res instanceof String) {
-    console.log(true)
-} else {
-    console.log(false)
-}
+import express from 'express'
+import {
+    registerController,
+    loginController,
+    verifyController,
+} from '../controller/index.js'
+
+export const authRouter = express.Router()
+
+authRouter.post('/register', registerController)
+authRouter.post('/login', loginController)
+authRouter.post('/verifyToken', verifyController)
