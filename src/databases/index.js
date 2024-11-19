@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 export const  db =()=>{
-  // co==
+  console.error("error")
 }
