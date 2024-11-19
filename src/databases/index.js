@@ -1,5 +1,4 @@
 
 export const db = () => {
-  // co==
+  console.error("error")
 }
-import pg from 'pg'
