@@ -1,1 +1,1 @@
-console.log("db.js")
+export * from  "./auth.controller.js"
