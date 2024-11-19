@@ -1,4 +1,4 @@
 
-export const  db =()=>{
+export const db = () => {
   console.error("error")
 }

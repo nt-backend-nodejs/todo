@@ -1,1 +1,3 @@
-export * from  "./auth.controller.js"
+export * from "./auth.controller.js"
+console.log('hello my team');
+
